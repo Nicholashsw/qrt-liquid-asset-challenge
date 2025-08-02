@@ -13,17 +13,20 @@ The final prediction model uses LightGBM with custom feature engineering, class 
 
 ## Files and Structure
 
+```
 qrt-liquid-asset-challenge/
 ├── notebooks/
-│ └── QRT_Data_Challenge.ipynb # Exploratory notebook and end-to-end development
+│   └── QRT_Data_Challenge.ipynb       # Exploratory notebook and end-to-end development
 ├── scripts/
-│ └── qrt_baseline.py # Clean script for training and submission
+│   └── qrt_baseline.py                # Clean script for training and submission
 ├── outputs/
-│ └── submission.csv # Final submission predictions
+│   └── submission.csv                 # Final submission predictions
 ├── data/
-│ └── README.md # Instructions for handling large local CSVs
-├── requirements.txt # Python dependencies
-└── README.md # Project overview (this file)
+│   └── README.md                      # Instructions for handling large local CSVs
+├── requirements.txt                   # Python dependencies
+└── README.md                          # Project overview (this file)
+```
+
 
 
 ## Approach
